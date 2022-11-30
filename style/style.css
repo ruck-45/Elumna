@@ -1,0 +1,303 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    /* border: 2px solid red; */
+}
+
+#main_page_wrapper{
+    /* background: whitesmoke; */
+    background: linear-gradient(rgba(0,0,0,0.2) 20%,rgba(0,0,0,0.4)), url('../resources/images/3390922.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body::-webkit-scrollbar{
+    display: none; /* hiding scrollbar */
+    /* overflow-x: hidden; */
+}
+
+
+
+
+
+
+
+
+
+
+/* Contact Bar */
+
+#contact{
+    height: 60px;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+    box-shadow: 0px 3px 2px 2px rgba(0, 0, 0,0.08);
+    padding: 20px 110px;
+    box-sizing: border-box;
+}
+
+#contact ul{
+    list-style: none;
+}
+
+#contact ul li{
+    float: right;
+    color: white;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+#contact ul li a{
+    color: white;
+    margin: 0px 5px;
+}
+
+#social a i{
+    transition: 0.1s;
+}
+
+#social a i:hover{
+    transform: scale(150%);
+    transition: 0.1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Login Signup Button */
+
+#Login_signup a{
+    padding: 7px;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-family: 'Gilroy-Regular', sans-serif;
+    transition: 0.3s;
+}
+
+#Login_signup:hover{
+    transform: scale(110%);
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+/* Navbar */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    height: 75px;
+    z-index: 100;
+}
+
+#logo{
+    font-size: 50px;
+    padding: 3px 20px;
+    background: rgba(0,0,0,0.4);
+    color: white;
+    letter-spacing: 2px;
+    border-radius: 0px 0px 12px 12px;
+    box-shadow: 0px 2px 1px 1px rgba(0, 0, 0,0.08);
+}
+
+nav ul{
+    list-style: none;
+}
+
+.nav_list{
+    float: left;
+    margin: 30px 10px;
+    font-size: 17.5px;
+    font-family: 'Gilroy-Regular', sans-serif;
+    padding: 7px 27px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.2s;
+    color: white;
+}
+
+.nav_list:hover{
+    background:rgba(0,0,0,0.4);
+    border-radius: 8px;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0,0.1);
+    transition: 0.2s;
+}
+
+.nav_list:first-child{
+    background: rgba(0,0,0,0.4);
+    border-radius: 8px;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0,0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Nav language */
+
+#lang{
+    position: absolute;
+    top: 128px;
+    left: 1146px;
+    display: none;
+}
+
+#lang a{
+    text-decoration: none;
+}
+
+#lang li{
+    text-align: center;
+    font-family: 'Gilroy-Regular', sans-serif;
+    padding: 3px 40px;
+    background: transparent;
+    border: 1px solid wheat;
+    border-radius: 2px;
+    margin: 1px 0px;
+    color: white;
+}
+
+#lang li:hover{
+    background: whitesmoke;
+    color: black;
+    transform: scale(105%);
+}
+
+.lang_btn_hover{
+    background:rgba(0,0,0,0.4);
+    border-radius: 8px;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0,0.1);
+    transition: 0.2s;
+}
+
+#lang a:first-child li{
+    background: whitesmoke;
+    color: black;
+    transform: scale(105%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main page content */
+#main_pg_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#main_pg_content div{
+    width: 100%;
+
+}
+
+#main_pg_content div p:first-child{
+    font-size: 60px;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+#main_pg_content div p:last-child{
+    font-size: 20px;
+    /* font-family: 'Gilroy-Heavy', sans-serif; */
+    text-align: center;
+    color: gray;
+}
+
+#main_pg_content img{
+    width: 45%;
+    padding: 30px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+#main_pg_content img:hover{
+    transform: scale(105%);
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+/* Main page Footer */
+#footer{
+    height: 30px;
+    background-color: rgba(0,0,0,0.4);
+}
+
+
+
+/* About Page */
+#About_page{
+    height: 100vh;
+    background: linear-gradient(rgba(187,219,190,0.8) 20%,rgba(187,219,190,1));
+}
+
+#About_page>p{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+    box-sizing: border-box;
+    font-family: 'Gilroy-Heavy', sans-serif;
+}
+
+#About_page>div{
+    height: 74%;
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+
+#About_page>div img{
+    width: 40%;
+    transition: 0.3s;
+}
+
+#About_page>div img:hover{
+    width: 45%;
+    transition: 0.3s;
+}
